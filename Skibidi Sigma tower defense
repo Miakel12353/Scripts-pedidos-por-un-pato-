@@ -1,0 +1,68 @@
+--This Script IS For Treeman, You Can Also Have It!
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+ 
+ 
+ 
+local Window = Library.CreateLib("Skibidi toilet tower defense", "DarkTheme") 
+ 
+ 
+local Tab = Window:NewTab("Free Towers") --Section
+ 
+ 
+ 
+local Section = Tab:NewSection("Free Towers")
+ 
+ 
+Section:NewButton("Hundred Stars", "Gives 100 Stars", function()    --Doesnt Function Correctly
+local A_2 = "HundredLocal"
+local Event = game:GetService("StarterGui").InteractItem
+Event:InvokeServer(A_2)
+ 
+end)
+
+
+Section:NewButton("Upgraded Titan Cam", "Unlock", function()    
+local A_1 = "Upgraded Titan Cameraman"
+local Event = game:GetService("ReplicatedStorage").InteractItem
+Event:InvokeServer(A_1)
+ 
+end)
+ 
+ 
+Section:NewButton("Equip Titan Tv Man", "ButtonInfo", function()    
+local A_1 = "Titan TV-Man"
+local Event = game:GetService("ReplicatedStorage").InteractItem
+Event:InvokeServer(A_1)
+ 
+end)
+
+Section:NewButton("Equip Titan Speaker Man", "ButtonInfo", function()    
+local A_1 = "TitanSpeakerman"
+local Event = game:GetService("ReplicatedStorage").InteractItem
+Event:InvokeServer(A_1)
+ 
+end)
+
+Section:NewButton("Equip Titan Cameraman", "ButtonInfo", function()    
+local A_1 = "Titan Cameraman"
+local Event = game:GetService("ReplicatedStorage").InteractItem
+Event:InvokeServer(A_1)
+ 
+end)
+
+Section:NewButton("Equip Secret Tower", "ButtonInfo", function()    
+local A_1 = "Beach Cameraman"
+local Event = game:GetService("ReplicatedStorage").InteractItem
+Event:InvokeServer(A_1)
+ 
+end)
+
+Section:NewButton("Equip Plunger Cameraman", "ButtonInfo", function()    
+local A_1 = "Ninja Cameraman"
+local Event = game:GetService("ReplicatedStorage").InteractItem
+Event:InvokeServer(A_1)
+
+end)
+
+
